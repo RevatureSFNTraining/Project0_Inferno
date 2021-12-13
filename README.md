@@ -1,4 +1,6 @@
 # Project0_Inferno
+12/13/2021
+- I started working on the HTML, CSS, and JS portions of my webpage while I try to study LWC. Once I figure out LWC I can implement it to the webpage.
 
 12/11/2021
 - Continuing to study LWC before I start working on the website. However, I did took some pictures of some collectibles today for the website.
