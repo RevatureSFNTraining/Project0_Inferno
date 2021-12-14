@@ -1,4 +1,8 @@
 # Project0_Inferno
+
+12/14/2021
+- Im going to complete the webpage with HTML, CSS, and some JS first, then uploaded to git hub, before I tackle the LWC. With LWC, the entire design of the webiste might change.
+
 12/13/2021
 - I started working on the HTML, CSS, and JS portions of my webpage while I try to study LWC. Once I figure out LWC I can implement it to the webpage.
 
