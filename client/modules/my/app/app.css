@@ -1,0 +1,63 @@
+/*Israel Escobedo*/
+h1{
+    font-size: 130px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{    
+    font-size: 95px;
+    text-align:center;
+    text-decoration: underline;
+}
+
+h3{    
+    font-size: 70px;
+    text-align:justify;
+    text-decoration: underline;
+}
+
+h4{
+    font-size: 60px;
+}
+
+p{    
+    font-size: 50px;
+    text-align: center;
+}
+
+p.corporate{
+    font-size: 15px;
+    text-align: left;
+}
+
+p.titles{    
+    font-size: 100px;
+    text-align:left;
+    text-decoration: underline;
+}
+
+label{    
+    font-size: 40px;
+}
+
+
+img{
+    border-color: red;
+    border-style:solid;
+    border-width: 2mm;
+}
+
+button{
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
