@@ -1,9 +1,10 @@
 <template>
-    <div class="slds-col">
-        <span class="slds-text-heading_medium">{deckType}</span> <br>
-        <span if:true={showDescription}>{deckDescription}</span> <br>
-        <img class="deck-card" src={deckImage}/> <br>
+    <div onmouseover={handleDescriptionVisible} onmouseout={handleDescriptionNotVisible} class="slds-col">
+        <div class="slds-text-heading_medium">{deckType}</div> <br>
+        <div if:true={showDescription}>{deckDescription}</div> <br>
+        <img if:false={showDescription} class="deck-card" src={deckImage}/> <br>
         <div class="slds-text-heading_large slds-text-color_success">{deckPrice}</div> <br>
-        <button class="slds-button slds-button_brand purchase-now">Purchase Now</button>
+        <button if:false={deckSold} onclick={handleSale} class="slds-button slds-button_brand purchase-now">Purchase Now</button>
+        <button if:true={deckSold} class="slds-button slds-button_brand sold-out">Sold Out</button>
       </div>
 </template>

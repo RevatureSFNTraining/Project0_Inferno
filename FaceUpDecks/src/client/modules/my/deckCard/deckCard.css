@@ -5,14 +5,20 @@
 }
 
 .slds-col{
-    background-color: aliceblue;
+    background-color: snow;
     text-align: center;
     color: red;
+    max-width: 100%;
 }
 
 .purchase-now{
     background-color: red;
     color: snow;
     border-color: antiquewhite;
-    height: 5%;
+}
+
+.sold-out{
+    background-color: black;
+    color: snow;
+    border-color: red;
 }

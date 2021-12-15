@@ -1,35 +1,39 @@
 <template>
     <my-header></my-header>
     <div class="slds-grid slds-gutters slds-gutters_xsmall">
-        <div class="slds-col">
-          <span class="slds-text-heading_medium">Standard</span> <br>
-          <span>Descriptive Text</span> <br>
-          <img class="deck-card" src="./resources/kingofhearts.jpg"/> <br>
-          <div class="slds-text-heading_large slds-text-color_success">$Price$</div> <br>
-          <button class="slds-button slds-button_brand purchase-now">Purchase Now</button>
-        </div>
-        <div class="slds-col">
-          <span class="slds-text-heading_medium">CyberFuture</span> <br>
-          <span>Descriptive Text</span> <br>
-          <img class="deck-card" src="./resources/technoqueen.jpg"/> <br>
-          <div class="slds-text-heading_large slds-text-color_success">$Price$</div> <br>
-          <button class="slds-button slds-button_brand purchase-now">Purchase Now</button>
-        </div>
-        <div class="slds-col">
-          <span class="slds-text-heading_medium">Far East</span> <br>
-          <span>Descriptive Text</span> <br>
-          <img class="deck-card" src="./resources/oniace.PNG"/> <br>
-          <div class="slds-text-heading_large slds-text-color_success">$Price$</div> <br>
-          <button class="slds-button slds-button_brand purchase-now">Purchase Now</button>
-        </div>
-        <div class="slds-col">
-          <span class="slds-text-heading_medium">Dead West</span> <br>
-          <span>Descriptive Text</span> <br>
-          <img class="deck-card" src="./resources/revolverjack.jpg"/> <br>
-          <div class="slds-text-heading_large slds-text-color_success">$Price$</div> <br>
-          <button class="slds-button slds-button_brand purchase-now">Purchase Now</button>
-        </div>
-        <my-deck-card></my-deck-card>
+        <my-deck-card deck-type="Starter" 
+        deck-description="Every journey, no matter how grand, begins with a single step. Likewise, every FaceUp
+        Deck, no matter how powerful, begins with a single card. What better cards to begin with than the classic
+         deck that inspired a generation? Will you be the next to add the Legendary King of Hearts to your 
+         collection?" 
+        deck-image="./resources/kingofhearts.jpg"
+        deck-price="$14.99"
+        class="slds-col slds-size_1-of-4"></my-deck-card>
+
+        <my-deck-card deck-type="Cyber Future" 
+        deck-description="The year is 4024, otherwise known as the Year of Broken Hearts. The kingdoms of days past
+        fell long ago and now their memory has been reduced to an obsucre meme on the cyber-forums. The last of the
+         47 Great Monachs, the TechnoQueen, is making her last stand. Will you end the reign of techno-terror once
+         and for all? Will you take the cyber-crown for yourself?" 
+        deck-image="./resources/technoqueen.jpg"
+        deck-price="$29.99"
+        class="slds-col slds-size_1-of-4"></my-deck-card>
+
+        <my-deck-card deck-type="Far East" 
+        deck-description="Who knew that there was more than water beyond the horizon? No one would have believed it
+         if we all didn't watch the distant speck on the waterline grow into a recognizable shape. A single ship soon
+          became dozens, which then turned into hundreds. The unknown lands of the East have been lost time time; 
+          swallowed by the ocean and her refugees now look to establish themselves elsewhere. Will you take up the 
+          sword against these invaders or will you pledge your fealty to the Far East?" 
+        deck-image="./resources/oniace.PNG"
+        deck-price="$34.99"
+        class="slds-col slds-size_1-of-4"></my-deck-card>
+
+        <my-deck-card deck-type="Dead West" 
+        deck-description="Bang Bang Shooty Cowboy Stuff" 
+        deck-image="./resources/revolverjack.jpg"
+        deck-price="$49.99"
+        class="slds-col slds-size_1-of-4"></my-deck-card>
     </div>
     <my-footer></my-footer>
 </template>
