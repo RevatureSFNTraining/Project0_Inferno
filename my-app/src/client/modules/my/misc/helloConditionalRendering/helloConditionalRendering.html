@@ -1,0 +1,26 @@
+<template>
+        <div>
+            <div> I have {cookies} cookies.</div><br>
+
+            <my-buttonx oncookie={handleAddCookie}></my-buttonx><br>
+
+
+            <input
+            type="checkbox"
+            label="Show details"
+            onchange={handleChange}
+        ></input><br>
+
+            <div class="details">   
+
+                <template if:true={areDetailsVisible}>
+                    <my-helloForEach></my-helloForEach>
+                </template>
+
+                <template if:false={areDetailsVisible}>
+                    Click me.
+                </template>
+            </div>
+        </div>
+
+</template>

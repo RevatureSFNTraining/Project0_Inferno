@@ -1,0 +1,13 @@
+<template><span class="title">Specials - {divetitle}</span>
+        <div>
+            <my-paginator
+                onprevious={handlePrevious}
+                onnext={handleNext}
+            ></my-paginator>
+        </div>
+
+        <p class="center"><img data-id="A" src="../../../resources/shipwreck.jpg">
+            {diveinfotext} {page}</p>
+
+            <!-- add grey boxes to the bottom, for each number of page, evenly spaces, that light up blue when page is on them ig to show page number, also add hover effect on the buttons -->
+</template>

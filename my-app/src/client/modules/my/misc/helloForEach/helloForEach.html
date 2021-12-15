@@ -1,0 +1,8 @@
+<template>
+    <ul class="light">
+        <div class="card">
+        <template for:each={animals} for:item="animal">
+            <li key={animal.Id}>{animal.Name}, {animal.Title}</li>
+        </template></div>
+    </ul>
+</template>

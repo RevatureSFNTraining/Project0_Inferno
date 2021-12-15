@@ -1,0 +1,49 @@
+@import 'my/style';
+
+@media screen and (max-width: 1000px) {
+    ul.navbar li.right,
+    ul.navbar li {
+        float: none;
+    }
+}
+
+ul {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--dark-bg);
+    font-size: var(--medium-font);
+}
+
+li {
+    float: left;
+    border-right: 1px solid var(--blue-accent);
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: var(--blue-accent);
+    color: black;
+    font-weight: bold;
+}

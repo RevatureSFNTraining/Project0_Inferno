@@ -1,0 +1,15 @@
+@import 'my/style';
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card {
+    background-color: var(--dark-bg);
+    padding: 20px;
+    height: 500px;
+    overflow: auto;
+    /* maybe variable to set with somehow */
+    border-radius: 25px;
+}

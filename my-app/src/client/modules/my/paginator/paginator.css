@@ -1,0 +1,14 @@
+.button-right {
+    float: right;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(43, 43, 43);
+    color:rgb(172, 172, 172);
+    font-weight: bold;
+    text-align: center;
+    border:none;
+}
