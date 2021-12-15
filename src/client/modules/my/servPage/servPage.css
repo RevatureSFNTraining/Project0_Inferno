@@ -1,0 +1,14 @@
+.services {
+    background-color: lightslategrey;
+}
+
+.card-set {
+    display: flex;
+    height: 80%;
+    background-color: black;
+    justify-content: center;
+}
+
+.card {
+    display: inline;
+}

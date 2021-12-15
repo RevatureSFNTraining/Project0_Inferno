@@ -1,0 +1,23 @@
+<template>
+  <div id="test">
+    <lightning-card title="Testimonials">
+
+      <lightning-button label="Testimonials" slot="actions" onclick={handleClick}>
+      </lightning-button>
+
+      <template if:true={detailsDisplayed}>
+        <div>
+          <p class="slds-p-horizontal_small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, iure autem, accusantium rem velit dolorum expedita culpa voluptatibus aliquam quo architecto corporis laborum molestias? Quibusdam omnis ipsa nisi dignissimos repellat.
+            -John Doe</p><br>
+
+          <p class="slds-p-horizontal_small">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet dolore dignissimos sit? Quibusdam deleniti amet architecto voluptates nobis vero dolor at consequatur, nulla nemo assumenda qui officia cupiditate libero accusamus?
+            -Jane Doe</p><br>
+
+          <p class="slds-p-horizontal_small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dicta optio accusantium, distinctio quam error consequatur, quas praesentium ducimus laudantium magni tempore unde obcaecati atque recusandae quibusdam odit reprehenderit molestias.
+            -Random Person</p>
+          <!-- <p slot="footer">Card Footer</p> -->
+        </div>
+      </template>
+    </lightning-card>
+  </div>
+</template>
