@@ -1,0 +1,18 @@
+.deck-card{
+    width: 350px;
+    height: 80%;
+    padding: 3%;
+}
+
+.slds-col{
+    background-color: aliceblue;
+    text-align: center;
+    color: red;
+}
+
+.purchase-now{
+    background-color: red;
+    color: snow;
+    border-color: antiquewhite;
+    height: 5%;
+}
