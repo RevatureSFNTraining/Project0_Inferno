@@ -1,4 +1,4 @@
-@import 'my/style';
+@import 'functionality/style';
 
 my-paginator {
     position: relative;
@@ -15,4 +15,9 @@ img {
 span {
     padding-left: 20%;
     text-align: center;
+}
+
+.page-counter {
+z-index: 3;
+    background-color: var(--blue-accent);
 }

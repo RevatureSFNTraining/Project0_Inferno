@@ -1,4 +1,5 @@
-@import 'my/style';
+@import 'functionality/style';
+
 @media screen and (max-width: 800px) {
   .slds-grid {
     margin: auto;

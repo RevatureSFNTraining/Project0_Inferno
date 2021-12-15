@@ -13,7 +13,7 @@ export default class fpDives extends LightningElement {
     page = 1;
     divetitle = "Cave Diving";
     diveinfotextp1 = "Follow along with the flow. Take in the awesome scenery. Let our professionally trained instructor's guide you on this next adventure. ";
-    diveinfotextp2 = "this is another paragraph of stuff and info!"
+    diveinfotextp2 = "this is another paragraph of stuff and info!";
 
     handlePrevious() {
         if (this.page > 1) {

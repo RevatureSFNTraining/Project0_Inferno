@@ -1,4 +1,4 @@
-@import 'my/style';
+@import 'functionality/style';
 
 @media screen and (max-width: 1000px) {
     ul.navbar li.right,
