@@ -1,0 +1,52 @@
+<template>
+    <div class="allcolors">
+        <h1 class="hugetext mytitle">Furniture of the Future</h1>
+        <div class="divcenter">
+            <div class="myflex">
+                <lightning-carousel scroll-duration=10>
+                    <lightning-carousel-image
+                        src="../resources/chair1.jpg"
+                        header="Some chairs of ours"
+                        description="Real lovely chairs"
+                        alternative-text="Metal chairs, painted white"        
+                >
+                </lightning-carousel-image>
+                <lightning-carousel-image
+                    src="../resources/table1.jpg"
+                    header="Table with chairs"
+                    description="The table's the real highlight here"
+                    alternative-text="Wicker chairs and table with wooden top"
+                >
+                </lightning-carousel-image>
+                <lightning-carousel-image
+                    src="../resources/chair2.jpg"
+                    header="A cool flock of chairs"
+                    description="With padded seats, even"
+                    alternative-text="Wooden chairs with built-in cushions"
+                >
+                </lightning-carousel-image>
+                </lightning-carousel>
+            </div>
+        </div>
+
+        <div class="slds-button-group divcenter" role="group">
+            <button title="aboutUs" class="slds-button slds-button_neutral" onclick={handleClick}>About Us</button>
+            <button title="testimonials" class="slds-button slds-button_neutral" onclick={handleClick}>Testimonials</button>
+            <button title="catalog" class="slds-button slds-button_neutral" onclick={handleClick}>Catalog</button>
+            <button title="contactUs" class="slds-button slds-button_neutral" onclick={handleClick}>Contact Us</button>
+        </div>
+
+        <template if:true={aboutUsSelected}>
+            <my-aboutus></my-aboutus>
+        </template>
+        <template if:true={testimonialsSelected}>
+            <my-testimonials></my-testimonials>
+        </template>
+        <template if:true={catalogSelected}>
+            <my-catalog></my-catalog>
+        </template>
+        <template if:true={contactUsSelected}>
+            <my-contactus></my-contactus>
+        </template>
+    </div>
+</template>
