@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# 
+# Project0_Inferno
 
 Here will be some information about the app.
 
@@ -11,5 +10,4 @@ The source files are located in the [`src`](./src) folder. All web components ar
 
 Find more information on the main repo on [GitHub](https://github.com/muenzpraeger/create-lwc-app).
 =======
-# Project0_Inferno
->>>>>>> 069ed4ef1ebc4ab662e8a486b0bd50942581bce9
+commit id: 069ed4ef1ebc4ab662e8a486b0bd50942581bce9
