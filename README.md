@@ -1,5 +1,8 @@
 # Project0_Inferno
 
+12/15/2021
+- Turned in HTML/CSS concept webapge, an updated wireframe, and the incomplete LWC version of the website last night.
+
 12/14/2021
 - Im going to complete the webpage with HTML, CSS, and some JS first, then uploaded to git hub, before I tackle the LWC. With LWC, the entire design of the webiste might change.
 
