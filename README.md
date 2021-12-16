@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 
 
 Here will be some information about the app.
@@ -9,3 +10,6 @@ Start simple by running `yarn watch` (or `npm run watch`, if you set up the proj
 The source files are located in the [`src`](./src) folder. All web components are within the [`src/client/modules`](./src/modules) folder. The folder hierarchy also represents the naming structure of the web components. The entry file for the custom Express configuration can be found in the ['src/server'](./src/server) folder.
 
 Find more information on the main repo on [GitHub](https://github.com/muenzpraeger/create-lwc-app).
+=======
+# Project0_Inferno
+>>>>>>> 069ed4ef1ebc4ab662e8a486b0bd50942581bce9
