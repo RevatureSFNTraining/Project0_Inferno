@@ -1,4 +1,6 @@
 # Project0_Inferno
+12/18/2021
+- Completed and uploaded ERD. Completed data model in Trailhead.
 
 12/15/2021
 - Turned in HTML/CSS concept webapge, an updated wireframe, and the incomplete LWC version of the website last night.
