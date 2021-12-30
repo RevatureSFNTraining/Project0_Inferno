@@ -1,0 +1,90 @@
+<!--Israel Escobedo, Project 0-->
+<template>
+
+    <!--Shipping section with textboxes for user input.-->
+    <p class = "titles">Shipping Information</p>
+
+    <label>Name: </label>
+    <input type="text" style="width:500px; height:20px" value={customerName} onchange={handleInput}></input>
+    <label>E-mail: </label>
+    <input type="email" style="width:500px; height:30px" value={email} onchange={handleInput}></input>
+    <br>
+    <label>Phone: </label>
+    <input type="text" style="width:300px; height:30px" value={phone} onchange={handleInput}></input>
+    <br>
+    <br>
+    <label>Address: </label>
+    <input type="text" style="width:500px; height:30px" value={addressShip} onchange={handleInput}></input>
+    <br>
+    <label>Apt#: </label>
+    <input type="text" style="height:30px" value={aptShip} onchange={handleInput}></input>
+    <label>City: </label>
+    <input type="text" style="height:30px" value={cityShip} onchange={handleInput}></input>
+    <label>State: </label>
+    <input type="text" style="height:30px" value={stateShip} onchange={handleInput}></input>
+    <label>Zip Code: </label>
+    <input type="text" style="height:30px" value={zipShip} onchange={handleInput}></input>
+     <br>
+    
+    <!--Billing section with textboxes for user input.-->
+    <p class = "titles">Billing</p>
+
+    <label>Credit/Debit Card: </label>
+    <label>Master Card</label>
+    <input type="radio" value="Master Card" onclick={handleCard}></input>
+    <label>Visa</label>
+    <input type="radio" value="Visa" onclick={handleCard}></input>
+    <label>Discover</label>
+    <input type="radio" value="Discover" onclick={handleCard}></input>
+    <br>
+    <label >Name On Card: </label>
+    <input type="text" style="width:500px; height:30px" value={cardName} onchange={handleInput}></input>
+    <label>CVV/CVC: </label>
+    <input type="text" style="height:30px" value={cvv} onchange={handleInput}></input>
+    <br>
+    <label>Card Number: </label>
+    <input type="text" style="width:500px; height:30px" value={cardNumber} onchange={handleInput}></input>
+    <br>
+    <label>Address: </label>
+    <input type="text" style="width:500px; height:30px" value={addressBilling} onchange={handleInput}></input>
+    <br>
+    <label>Apt#: </label>
+    <input type="text" style="height:30px" value={aptBilling} onchange={handleInput}></input>
+    <label>City: </label>
+    <input type="text" style="height:30px" value={cityBilling} onchange={handleInput}></input>
+    <label>State: </label>
+    <input type="text" style="height:30px" value={stateBilling} onchange={handleInput}></input>
+    <label>Zip Code: </label>
+    <input type="text" style="height:30px" value={zipBilling} onchange={handleInput}></input>
+    <br>
+    
+    <!--Subscription section.-->
+    <p class="titles">Subscription Options</p>
+
+    <!--Subscription options.-->
+    <div>
+        <input type="radio" value="blue" onclick={handleBox}></input>
+        <label>Blue Vintage Loot Box $50 per month ($300)</label>
+        <input type="radio" value="green" onclick={handleBox}></input>
+        <label>Green Vintage Loot Box $40 per month ($480)</label>
+        <input type="radio" value="gold" onclick={handleBox}></input>
+        <label>Green Vintage Loot Box $30 per month ($720)</label>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+                        
+    <!--Button displays Payment Confrimation section.--> 
+    <center><button style="width:200px; height:100px" onclick={handlePayment}>Subscribe</button></center>
+
+    <!--Displays subscription confirmation message-->
+    <p>{greeting}</p>
+    <p>{confirmation}</p>
+    <p>{confirmNum}</p>
+    <p>{message} </p>
+
+
+
+</template>

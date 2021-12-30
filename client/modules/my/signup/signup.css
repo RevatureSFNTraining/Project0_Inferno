@@ -1,0 +1,34 @@
+/*Israel Escobedo, Project 0*/
+p{    
+    font-size: 45px;
+    text-align: left;
+}
+
+p.titles{    
+    font-size: 70px;
+    text-align:left;
+    text-decoration: underline;
+}
+
+label{    
+    font-size: 40px;
+}
+
+button{
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+input{
+    font-size: 18px;
+}
+
