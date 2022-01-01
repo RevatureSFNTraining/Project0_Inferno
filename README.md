@@ -1,4 +1,7 @@
 # Project0_Inferno
+12/31/2021
+- Updated the wireframe and ERD. Trying to complete part 3 of project 0.
+
 12/29/2021
 - Updated ERD and webpage code. Currently working on UI, Auto Processing, and Salesforce Cloud.
 
