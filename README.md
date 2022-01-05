@@ -1,4 +1,7 @@
 # Project0_Inferno
+01/05/2022
+- Finsihed with all aspects of the project. Video has been uploaded to YouTube.
+
 01/04/2022
 - Uploaded my power presentation, part 3 of the project is completed to the best of my ability, and now working on recording for video presentation.
 
