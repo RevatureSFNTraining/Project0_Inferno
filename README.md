@@ -1,6 +1,6 @@
 # Project0_Inferno
 01/04/2022
-- Uploaded my power presentation, part 3 of the project is completed to the best of my ability, and now working recording for video presentation.
+- Uploaded my power presentation, part 3 of the project is completed to the best of my ability, and now working on recording for video presentation.
 
 01/02/2022
 - Updated ERD and completed UI. Working on part 3. Started recording for video and writing power point. 
